@@ -18,7 +18,7 @@ function onLoginSubmit(event) {
 function onLogoutSubmit(event) {
   event.preventDefault();
   logoutForm.classList.add(HIDDEN_CLASSNAME);
-  window.alert(" See you later");
+  window.alert("See you later");
   localStorage.clear();
   location.reload();
 }
