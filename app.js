@@ -35,7 +35,6 @@ const savedUsername = localStorage.getItem(USERNAVME_KEY);
 
 if (savedUsername === null) {
   loginForm.classList.remove(HIDDEN_CLASSNAME);
-  loginBtn.classList.remove(HIDDEN_CLASSNAME);
   loginForm.addEventListener("submit", onLoginSubmit);
 } else {
   logoutForm.classList.remove(HIDDEN_CLASSNAME);
